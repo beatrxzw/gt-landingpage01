@@ -9,11 +9,16 @@
     padding: 0;
     margin: 0;
     font-family: var(--font);
+    box-sizing: border-box;
+
 }
 
 .navbar{
     height: 80px;
-    width: 1440px
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .logo{
@@ -21,6 +26,7 @@
     width: 175.5px;
 }
 
-.menu{
+
+.home{
     text-decoration: none;
 }
